@@ -1,0 +1,24 @@
+@media screen and (max-width:993px) {
+    .nav-container{
+       align-items: center;
+    }
+    .nav-hamburger{
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .nav-container{
+    height: 43px;
+    justify-content: space-between;
+    align-items: center;
+     }
+    .nav-hamburger{
+        display: block;
+        margin-top: 75px;
+    }
+
+    .nav-items-content{
+        display:none; 
+    }
+}
