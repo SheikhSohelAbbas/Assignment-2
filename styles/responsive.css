@@ -2,9 +2,6 @@
     .nav-container{
        align-items: center;
     }
-    .nav-hamburger{
-        display: none;
-    }
 }
 
 @media screen and (max-width:576px) {
@@ -20,5 +17,22 @@
 
     .nav-items-content{
         display:none; 
+    }
+    .baner-container{
+        flex-direction: column;
+      }
+      ..baner-text-content{
+        max-width: 20%;
+      }
+      .baner-text-content h4{
+        font-size: 50px;
+        font-weight: 900;  
+    }
+    .baner-text-content p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .btn{
+    
     }
 }
