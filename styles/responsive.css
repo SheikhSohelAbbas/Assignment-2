@@ -6,6 +6,7 @@
 
 @media screen and (max-width:576px) {
     .nav-container{
+        /* width: 50%; */
     height: 43px;
     justify-content: space-between;
     align-items: center;
@@ -19,20 +20,28 @@
         display:none; 
     }
     .baner-container{
+        /* width: 50%; */
         flex-direction: column;
-      }
-      ..baner-text-content{
-        max-width: 20%;
+
       }
       .baner-text-content h4{
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 900;  
     }
     .baner-text-content p{
-        font-size: 10px;
+        font-size: 5px;
         font-weight: 400;
     }
-    .btn{
-    
+    .habits-content{
+       /* width: 70%;
+       align-items: flex-start; */
     }
-}
+    .habits-text-content h3{
+        font-size: 35px;
+    }
+    .habits-text-content p{
+        font-size: 9px;
+    }
+    .habits-img-content{
+        grid-template-columns: repeat(1,1fr);
+    }
