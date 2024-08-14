@@ -63,3 +63,6 @@
         /* margin: 34px 0px; */
         border-radius: 52px;
     }
+    .footer-content{
+        flex-direction: column;
+        }

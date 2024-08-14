@@ -295,6 +295,7 @@ body{
     gap: 350px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
+    margin-bottom:100px;
 }
 .run-text-container h4{
     color: rgb(255, 255, 255);
@@ -302,7 +303,6 @@ body{
     font-size: 48px;
     font-weight: 900;
     margin: 20px;
-
 }
 .run-text-container p{
     color: rgba(255, 255, 255, 0.5);
@@ -310,7 +310,6 @@ body{
     font-size: 14px;
     font-weight: 400;
     margin: 20px ;
-
 }
 .run-text-container button{
     padding: 16px 40px 16px;
@@ -325,3 +324,65 @@ body{
     background: url(4);
 }
 /* <!-- Run section ends here --> */
+
+/* footer section starts here  */
+.footer-color{
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-content{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 100px;
+}
+.footer-text-container h3{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+.footer-text-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0px;
+
+}
+.ul-12 h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    margin: 39px 0px;
+
+}
+.ul-12 li{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+text-align: left;
+margin: 0px 10px;
+}
+.hr-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hr-content hr{
+    width: 70%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 25px;
+}
+.hr-content p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 25px;
+font-weight: 400;
+margin: 30px;
+}
+/* footer section ends here  */
