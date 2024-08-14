@@ -63,6 +63,11 @@
         /* margin: 34px 0px; */
         border-radius: 52px;
     }
+    .team-img-container{
+        grid-template-columns: repeat(1,1fr);
+
+    
+    }
     .footer-content{
         flex-direction: column;
         }

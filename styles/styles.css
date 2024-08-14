@@ -324,6 +324,120 @@ body{
     background: url(4);
 }
 /* <!-- Run section ends here --> */
+/* <!-- Team section starts here  --> */
+.team-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team-content h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+margin: 14px 0px;
+gap: 14;
+}
+.team-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 0px;
+    gap: 14;
+
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+    margin: 0px 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+.img-1 img{
+    width: 326.67px;
+    height: 272px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.img-2 img{
+    width: 326.67px;
+    height: 272px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.img-3 img{
+    width: 326.67px;
+    height: 272px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.img-4 img{
+    width: 326.67px;
+    height: 272px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.img-5 img{
+    width: 326.67px;
+    height: 272px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.img-6 img{
+    width: 326.67px;
+    height: 272px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.img-1 h4{
+    color: white;
+    font-size: medium;
+    font-weight:500px;
+}
+.img-2 h4{
+    color: white;
+    font-size: medium;
+    font-weight:500px;
+}
+.img-3 h4{
+    color: white;
+    font-size: medium;
+    font-weight:500px;
+}
+.img-4 h4{
+    color: white;
+    font-size: medium;
+    font-weight:500px;
+}
+.img-5 h4{
+    color: white;
+    font-size: medium;
+    font-weight:500px;
+}
+.img-6 h4{
+    color: white;
+    font-size: medium;
+    font-weight:500px;
+}
+/* <!-- Team section ends here  --> */
 
 /* footer section starts here  */
 .footer-color{
