@@ -326,6 +326,8 @@ body{
 /* <!-- Run section ends here --> */
 /* <!-- Team section starts here  --> */
 .team-content{
+    max-width: 1100px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -333,22 +335,25 @@ body{
 }
 .team-content h3{
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 48px;
-font-weight: 900;
-margin: 14px 0px;
-gap: 14;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 14px 0px;
+    gap: 14;
 }
 .team-content p{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    margin: 14px 0px;
+    margin: 20px 0px;
     gap: 14;
+    text-align: center;
 
 }
 .team-img-container{
+    max-width: 1100px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
