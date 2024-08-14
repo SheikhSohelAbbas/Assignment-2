@@ -116,7 +116,8 @@ body{
 }
 .btn-2{
     box-sizing: border-box;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #FFFFFF;
+    background-color: #000000;
     border-radius: 42px;
     padding: 16px 40px 16px 40px;
     color: rgb(255, 255, 255);
@@ -282,3 +283,45 @@ body{
     margin: 6px 0px;
 }
 /* <!-- Habits section ends here --> */
+
+/* <!-- Run section starts here --> */
+.run-content{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap: 350px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+.run-text-container h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 20px;
+
+}
+.run-text-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px ;
+
+}
+.run-text-container button{
+    padding: 16px 40px 16px;
+    margin: 20px;
+    border-radius: 42px;
+}
+
+.run-img-container img{
+    width: 310px;
+    height: 292px;
+    border-radius: 18px;
+    background: url(4);
+}
+/* <!-- Run section ends here --> */
